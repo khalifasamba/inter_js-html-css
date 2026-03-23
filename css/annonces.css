@@ -1,0 +1,86 @@
+.page-hero{
+    height:60vh;
+  background:url('../images/2.png') center/cover no-repeat;
+  align-items:last baseline;
+  padding:50px;
+  color:white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  justify-content: center;
+}
+.page-hero h1{
+  font-size:2.5rem;
+  margin-top: 10%;
+  margin-bottom:15px;
+}
+
+.page-hero p{
+  font-size:1.2rem;
+}
+
+.section-title{
+  margin-bottom:30px;
+  font-size:1.8rem;
+  text-align:center;
+}
+
+.btn-small{
+  background:#0d5c2f;
+  color:white;
+  padding:8px 15px;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+  margin:10px;
+  transition:0.3s;
+}
+
+.btn-small:hover{
+  background:#ffd700;
+  color:black;
+}
+
+.formation-detail{
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.agri-info{
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  margin-top:40px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+  animation: fadeUp 0.8s ease;
+}
+
+.agri-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+  margin-top:20px;
+}
+
+.agri-grid p{
+  margin-bottom:15px;
+  text-align:justify;
+  line-height:1.7;
+}
+
+
+
+.agri-stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:20px;
+  text-align:center;
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.agri-stats h3{
+  color:#0d5c2f;
+  font-size:1.8rem;
+}
